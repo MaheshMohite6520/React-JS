@@ -25,3 +25,5 @@ import { plane1, plane2 } from "./russia.js";
 
 log(plane1);
 log(plane2);
+
+log("hello" * 3);
