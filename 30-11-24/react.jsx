@@ -60,13 +60,13 @@
 // 1] rollup :
 
 // It is used to bundle the request of similar type in a single bundle & send it to the server.
-// It is used to imperove the performance of the system.
+// It is used to improve the performance of the system.
 
 //! <------------------------ package.json ----------------------->
 
 //! 1] "version": "1.0.0" :
 
-// It is divided into 3 parts: " Major updates . Monor Updates . Patch "
+// It is divided into 3 parts: " Major updates . Minor Updates . Patch "
 
 //! 2] scripts :
 

@@ -17,7 +17,7 @@ let { log } = console;
 
 //! In Named export we shoud not use default keyword.
 //! We can do named export mmultiple times.
-//! When it is named export, while importing we shold take same exported name.
+//! When it is named export, while importing we should take same exported name.
 //! When it is named export, while importing we must take curly braces ( {} )
 //! When we are exporting as named export, export keyword can be on the same line of variable declaration.
 
