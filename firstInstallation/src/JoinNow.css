@@ -1,0 +1,19 @@
+.join-now {
+  background-color: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #333;
+}
+
+.join-now button {
+  padding: 10px 20px;
+  border: 2px solid #333;
+  background: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.join-now button:hover {
+  background-color: #333;
+  color: white;
+}
