@@ -8,8 +8,13 @@ import Block3 from "./components/Block3";
 
 function App() {
   return (
-    <div className="w-[100vw] border-b-2 border-black bg-black">
-      <div className="w-[80vw] mx-auto bg-white">
+    <div className="w-[100vw] border-b-2 border-black bg-blue-400 py-10">
+
+    <div className="text-center text-[50px] font-bold text-white uppercase">Landing Page</div>
+
+    <div className="text-center text-[30px] font-semi-bold text-white uppercase">Webinar</div>
+
+      <div className="w-[80vw] mx-auto bg-white my-10">
       <Navbar />
       <div className="flex flex-row ">
         <div className="w-[42%] border-x-2 border-black">
