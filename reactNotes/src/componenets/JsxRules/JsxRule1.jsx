@@ -2,7 +2,8 @@ let JsxRule1 = () => {
 
   return  (
     <div>
-      <p> <b>Rule 1 : </b> You must return the JSX. If you are not returning then you will not get output.</p>
+      <h1>Rule 1 :</h1>
+      <p> - You must return the JSX. If you are not returning then you will not get output.</p>
     </div>
   )
 

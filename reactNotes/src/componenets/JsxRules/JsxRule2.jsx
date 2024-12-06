@@ -6,7 +6,7 @@ let JsxRule2 = () => {
 
     //! It will work.
     <div>
-      <div> <b>Rule 2 :</b> </div>
+      <h1> Rule 2 : </h1>
       <div>- At a time we can return only one element.</div>
       <div>- If we want to return more than one element then we must wrap them inside one single parent element.</div>
     </div>

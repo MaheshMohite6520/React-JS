@@ -1,7 +1,8 @@
 let JsxRule3 = () => {
   return (
-    <div> 
-      <p> <b>Rule 3 : </b> Each & Every tag in JSX must be closed. Otherwise we will get error.</p>
+    <div>
+      <h1> Rule 3 : </h1> 
+      <p> - Each & Every tag in JSX must be closed. Otherwise we will get error.</p>
     </div>
 
     //! With closing tags
