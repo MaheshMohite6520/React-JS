@@ -8,7 +8,7 @@
 
 // It stands for Node Package Executer.
 // It will download only the necessary packages & remaining packages we can access without downloading them.
-// Ex. It we want use Facebook in Mobile Phone, we have 2 ways :
+// Ex. If we want use Facebook in Mobile Phone, we have 2 ways :
 // 1] Downloading Facebook App which is similar with npm way, means we are downloading & then only we are using it.
 // 2] Downloading the browser(neccesary package) is similar with npx way, Here we are not downloading the Facebook App but instead we are downloading neccesary package(Browser) & executing or using Facebook App on that package.
 // Installation size will be around 300 to 400 MB.
