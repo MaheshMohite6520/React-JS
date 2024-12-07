@@ -6,8 +6,8 @@ let JsxExpressionRule2 = () => {
     <div>
       <h3>JSX Expression Rule-2 : </h3>
 
-      <p>We cannot write conditional statements inside JSX Expression.</p>
-      <p>Instead of conditional statements we can write Ternary operator & short circuite operator</p>
+      <p>- We cannot write conditional statements inside JSX Expression.</p>
+      <p>- Instead of conditional statements we can write Ternary operator & short circuite operator</p>
 
       {/* <h3>{if(mode == 'dark'){
         return <p>☀️</p>

@@ -4,6 +4,8 @@ import JsxRule3 from "../JsxRules/JsxRule3";
 import JsxRule4 from "../JsxRules/JsxRule4";
 import JsxRule5Fragment from "../JsxRules/JsxRule5Fragment";
 import JsxRule6 from "../JsxRules/JsxRule6";
+import JsxRule7 from "../JsxRules/JsxRule7";
+import JsxRule8 from "../JsxRules/JsxRule8";
 
 let JsxIntroEx1 = () => {
   return (
@@ -14,6 +16,8 @@ let JsxIntroEx1 = () => {
       <JsxRule4/>
       <JsxRule5Fragment/>
       <JsxRule6/>
+      <JsxRule7/>
+      <JsxRule8/>
     </div>
   )
 }

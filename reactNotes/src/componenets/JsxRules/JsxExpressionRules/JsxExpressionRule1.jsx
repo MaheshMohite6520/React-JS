@@ -9,7 +9,7 @@ let JsxExpressionRule1 = () => {
 
       <p>- We should not write console statements inside JSX Expression, Beacause it will not get displayed on UI.</p>
 
-      <div>{console.log('Hello World')} DIV</div>
+      {/* <div>{console.log('Hello World')} DIV</div> */}
     </div>
   )
 }
