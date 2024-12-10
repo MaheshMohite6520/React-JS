@@ -39,3 +39,20 @@
 // Default port : 5173
 // We can create js & jsx file.
 // We can write JSX inside .jsx file only & JavaScript inside .js file only.
+
+//! Hot Module Replacement (HMR) :
+
+// It is one of the most useful feature offered by the package bundlers in React.
+// It allows all kinds of modules to be updated at runtime without the need for a full refresh.
+// HMR is not intended to use in production(after development), meaning it should pnly be used in development.
+
+//! Features of React :
+
+//! 1] React follows Component Based Architecture.
+// Ex. Daigram (Landing Page)
+
+//! 2] React is Declarative in Nature.
+// Everything is declared internally, we are just using it.
+// Ex. We don't need to write or use any DOM methods beacause everything is decared with JSX.
+// We can call React as Declarative cause it provides many in-Built Hooks for different functionalities.
+// Imperative means we have to create it first & then use it.
