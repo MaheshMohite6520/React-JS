@@ -1,4 +1,9 @@
 import UseStateEx1 from "./examples/UseStateEx1";
+import UseStateEx2 from "./examples/UseStateEx2";
+import UseStateEx3 from "./examples/UseStateEx3";
+import UseStateEx4 from "./examples/UseStateEx4";
+import UseStateEx5 from "./examples/UseStateEx5";
+import UseStateEx6 from "./examples/UseStateEx6";
 
 let UseState_Intro = () => {
   return (
@@ -21,7 +26,17 @@ let UseState_Intro = () => {
       
       </p> */}
 
-      <UseStateEx1/>
+      {/* <UseStateEx1/> */}
+
+      <UseStateEx2/>
+
+      <UseStateEx3/>
+
+      <UseStateEx4/>
+
+      <UseStateEx5/>
+
+      <UseStateEx6/>
       
     </div>
   )
