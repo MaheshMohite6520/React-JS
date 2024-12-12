@@ -5,7 +5,7 @@ let UseStateEx6 = () => {
   let arr = [
     {
       id: 1,
-      name: "Mahesh Mohite",
+      name: "Gaurav Khalase",
       age: 20,
       grade: "A",
       subjects: ["Mathematics", "Physics", "Chemistry"],

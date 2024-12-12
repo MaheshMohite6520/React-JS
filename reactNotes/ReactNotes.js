@@ -61,3 +61,26 @@
 
 // We can create components for such functionalities that are repetative & we can use such components n no. of times
 // Ex. We can create Button component & use it anywhere in the application by calling it.
+
+//! React Questions :
+
+// 1] What is React?
+// 2] What are the Features, Advantage & Disadvantages of React?
+// 3] Difference between Library & Framework?
+// 4] What is Single Page Application?
+// 5] What is Declarative?
+// 6] What is Virtual DOM & how many virtual DOM React maintain & How?
+// 7] What is the difference between Virtual DOM & Real DOM?
+// 8] What is Reconsillation & React Fiber & Explain the difference between them?
+// 9] Explain folder-structure of React in detail?
+// 10] What is the use scripts in package.json file?
+// 11] What is Component? Types of Component and
+// 12] What is Hooks?
+// 13] What is life-cycle methods and their use. Give some examples.
+// 15] What is createRoot?
+// 16] What is ReactDOM and its use. What are the methods present inside it.
+// 17] What is the use CDN links?
+// 18] What is render?
+// 19] What is useState Hook?
+// 20] What is props?
+// 21] Difference between props & state?
