@@ -1,3 +1,4 @@
+import ConditionalRenderingIntro from "./componenets/ConditionalRendering/ConditionalRenderingIntro"
 import UseState_Intro from "./componenets/hooks/useStateHook/UseState_Intro"
 import JsxIntro from "./componenets/jsxIntro/jsxIntro"
 import JsxIntroEx1 from "./componenets/jsxIntro/JsxIntroEx1"
@@ -10,7 +11,9 @@ function App() {
 
     {/* <UseState_Intro/> */}
 
-    <PropsIntro/>
+    {/* <PropsIntro/> */}
+
+    <ConditionalRenderingIntro />
    </div>
   )
 }

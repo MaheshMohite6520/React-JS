@@ -84,3 +84,21 @@
 // 19] What is useState Hook?
 // 20] What is props?
 // 21] Difference between props & state?
+// 22] What is props Drilling?
+// 23] How to avoid props drilling?
+// 24] What is HOC, REDUX, Context API?
+// 25]
+
+//! JavaScript Interview Questions :
+
+//0 Functions -> Types (generative function)
+// How this keyword work in all function?
+// Differences in functions
+// Object & its methods
+// String & its methods
+// Array & its methods
+// Closures
+// Destructuring
+// Promises & async-await
+// call, apply, bind & its difference
+// Hoisting
