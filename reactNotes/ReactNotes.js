@@ -62,14 +62,14 @@
 // We can create components for such functionalities that are repetative & we can use such components n no. of times
 // Ex. We can create Button component & use it anywhere in the application by calling it.
 
-//! React Questions :
+//! React Interview Questions :
 
 // 1] What is React?
 // 2] What are the Features, Advantage & Disadvantages of React?
 // 3] Difference between Library & Framework?
 // 4] What is Single Page Application?
 // 5] What is Declarative?
-// 6] What is Virtual DOM & how many virtual DOM React maintain & How?
+// 6] What is Virtual DOM & how many DOM React maintain & How?
 // 7] What is the difference between Virtual DOM & Real DOM?
 // 8] What is Reconsillation & React Fiber & Explain the difference between them?
 // 9] Explain folder-structure of React in detail?
@@ -87,11 +87,10 @@
 // 22] What is props Drilling?
 // 23] How to avoid props drilling?
 // 24] What is HOC, REDUX, Context API?
-// 25]
 
 //! JavaScript Interview Questions :
 
-//0 Functions -> Types (generative function)
+// Functions -> Types (generative function)
 // How this keyword work in all function?
 // Differences in functions
 // Object & its methods

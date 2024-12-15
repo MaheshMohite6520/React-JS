@@ -2,7 +2,7 @@
 
 //! Diffing Algorithm :
 
-// It is the process of finding the defferences between Real-DOM & Virtual-DOM.
+// It is the process of finding the differences between Real-DOM & Virtual-DOM.
 
 //! Reconcilliation Process :
 
@@ -10,7 +10,7 @@
 
 //! Process :
 
-// We have only one HTML file in react application. 
+// We have only one HTML file in react application.
 // It has DOM Structure called Real DOM.
 // By using react-dom library the copy of Real-DOM will be created called Virtual-DOM.
 // We write React code inside App.jsx
@@ -36,4 +36,3 @@
 // It is a company which provide services.
 // It is very very fast & light weight.
 // It is faster upto 40% faster than others.
-
