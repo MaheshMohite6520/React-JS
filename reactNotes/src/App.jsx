@@ -1,21 +1,19 @@
-import ConditionalRenderingIntro from "./componenets/ConditionalRendering/ConditionalRenderingIntro"
-import UseState_Intro from "./componenets/hooks/useStateHook/UseState_Intro"
-import JsxIntro from "./componenets/jsxIntro/jsxIntro"
-import JsxIntroEx1 from "./componenets/jsxIntro/JsxIntroEx1"
-import PropsIntro from "./componenets/props/PropsIntro"
+import EventIntro from "./componenets/Events/EventIntro";
 
 function App() {
   return (
-   <div>
-    {/* <JsxIntro/> */}
+    <div>
+      {/* <JsxIntro/> */}
 
-    {/* <UseState_Intro/> */}
+      {/* <UseState_Intro/> */}
 
-    {/* <PropsIntro/> */}
+      {/* <PropsIntro/> */}
 
-    <ConditionalRenderingIntro />
-   </div>
-  )
+      {/* <ConditionalRenderingIntro /> */}
+
+      <EventIntro />
+    </div>
+  );
 }
 
-export default App
+export default App;
