@@ -1,5 +1,10 @@
 import React, { useState } from "react";
 
+//! 2. Hover to Grow
+// Create a "Magic Plant" component.
+// When a user hovers over the plant image, it grows by increasing its size.
+// On hover out, it shrinks back.
+
 const Assignment2 = () => {
   const [isHovered, setIsHovered] = useState(false);
 
