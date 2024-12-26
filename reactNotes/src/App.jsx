@@ -1,4 +1,6 @@
+import ContextApiIntro from "./componenets/Context API/ContextApiIntro";
 import EventIntro from "./componenets/Events/EventIntro";
+import UseEffectIntro from "./componenets/hooks/useEffect/UseEffectIntro";
 
 function App() {
   return (
@@ -11,7 +13,11 @@ function App() {
 
       {/* <ConditionalRenderingIntro /> */}
 
-      <EventIntro />
+      {/* <EventIntro /> */}
+
+      <UseEffectIntro />
+
+      {/* <ContextApiIntro /> */}
     </div>
   );
 }
