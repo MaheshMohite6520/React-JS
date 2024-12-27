@@ -15,7 +15,7 @@ const UseEffectIntro = () => {
       {/* <UseEffectEx3 /> */}
       {/* <UseEffectEx4 /> */}
       {/* <UseEffectEx5 /> */}
-      <UseEffectEx6 />
+      {/* <UseEffectEx6 /> */}
       {/* <UseEffectEx7 /> */}
     </div>
   );
