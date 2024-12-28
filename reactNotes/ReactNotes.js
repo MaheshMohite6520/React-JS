@@ -101,3 +101,23 @@
 // Promises & async-await
 // call, apply, bind & its difference
 // Hoisting
+
+//! Context API:
+
+// -	Context API Is used to avoid props drilling.
+// -	Here we have to create global context / store which will do two things for us
+// 1.	It will store all the data that is required globally
+// 2.	It will provide that data throughout the application
+// -	We have to use context API in 3 steps
+// 1.	Create the context component
+// -	We will store and export the object that is returned by createContext() method
+// export let context = createContext()
+
+// -	We will provide the data as a value to the props.children using contextObject.Prvider
+
+// <context.Provider value={data}>{props.children} </context.Provider>
+
+// 2.	We want that context to be available throughout the application and for this we have to wrap App.jsx component call in between AppContext.jsx
+// 3.	Use data provided by the context in any of the child component throughout the application
+// -	To use data provided by the context we have to use a hook called useContext() hook will ask for an argument which should be the context object variable that is being exported from appContext
+// -	Once we use useCotext hook and pass the context object argument, useContext() hook will return values provided by the appContext will store the return values and we can use it.
