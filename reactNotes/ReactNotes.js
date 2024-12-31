@@ -121,3 +121,31 @@
 // 3.	Use data provided by the context in any of the child component throughout the application
 // -	To use data provided by the context we have to use a hook called useContext() hook will ask for an argument which should be the context object variable that is being exported from appContext
 // -	Once we use useCotext hook and pass the context object argument, useContext() hook will return values provided by the appContext will store the return values and we can use it.
+
+//! useReducer Hook :
+
+// It is the alternative for useState() hook for managinf the state.
+// It can help to manage complex states & logics better than useState() hook.
+// useReducer() hook with Context-Api is the most commonlt used pattern in React Applcations.
+
+// Syntax : const [state, dispatch] = useReducer(reducer, initialState);
+
+// 1] state : State will hold the value passed to the initial state variable.
+// 2] dispatch : It is nothing but the function which is stored in the reference called Reducer.
+// 3] reducer : reducer is the function which accepts 2 arguments i.e. state & action.
+// It is also a callback function which accepts 2 arguments state & action. where in state parameter we get the access of current state & in action parameter we get the access of arguments that are passed by during the dispatch function call.
+// The action can be any String, Number or any datatype but most commonly it will be object which can have type & value properties.
+// In reducer function usually we write a switch case & in that switch case the case will be action.type & based on that case(action.type) we can return the updated state object.
+
+// <Button onClick = {() => {dispatch({type : "add", value : 10})}}> Addition </Button>
+
+//! useMemo :
+
+// It is used to achieve Performance Optimization in React Application.
+// useMemo() hook will return the memeoized value.
+
+// Syntax : const memoizedValue = useMemo(callback function, []);
+
+// We can add n no of dependencies.
+// Your callback function will pass to the useMemo() hook if it has expensive(heavy) calculation(computation) so it could affect the overall performance of the application but as it is used with the useMemo() hook it won't get called on each component rerender.
+// It will get called only when there are some changes in dependencies & it will return the memoized value.
