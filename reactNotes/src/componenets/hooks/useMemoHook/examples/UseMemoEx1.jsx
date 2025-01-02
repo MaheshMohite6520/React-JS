@@ -28,8 +28,10 @@ const UseMemoEx1 = () => {
         }}
         className="bg-orange-500 text-white px-3 rounded-md"
       >
-        Count1 : {count1}
-        {memoizedVal}
+        {/* No Performance issue : When checkCount1 is not called directly & used with useMemo() hook. */}
+        Count1 : {count1} {memoizedVal}
+        {/* Performance issue : When checkCount1 is called directly. */}
+        {/* Count1 : {count1} {checkCount1()} */}
       </button>
 
       <button
@@ -38,8 +40,7 @@ const UseMemoEx1 = () => {
         }}
         className="bg-orange-500 text-white px-3 rounded-md"
       >
-        Count2 : {count2}
-        {checkCount2()}
+        Count2 : {count2} {checkCount2()}
       </button>
     </div>
   );

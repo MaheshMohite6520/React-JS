@@ -6,10 +6,13 @@ import UseEffectEx3 from "./examples/UseEffectEx3";
 import UseEffectEx4 from "./examples/UseEffectEx4";
 import UseEffectEx5 from "./examples/UseEffectEx5";
 import UseEffectEx6 from "./examples/UseEffectEx6";
+import UserList from "./task/UserList";
 
 const UseEffectIntro = () => {
   return (
     <div>
+      {/* Examples */}
+
       {/* <UseEffectEx1 /> */}
       {/* <UseEffectEx2 /> */}
       {/* <UseEffectEx3 /> */}
@@ -17,6 +20,10 @@ const UseEffectIntro = () => {
       {/* <UseEffectEx5 /> */}
       {/* <UseEffectEx6 /> */}
       {/* <UseEffectEx7 /> */}
+
+      {/* Tasks */}
+
+      <UserList />
     </div>
   );
 };
