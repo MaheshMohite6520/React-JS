@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import "./App.css";
 
 const UserList = () => {
   const [users, setUsers] = useState([]);
@@ -28,23 +27,32 @@ const UserList = () => {
   }, []);
 
   if (loading) {
-    return <p>Loading...</p>;
+    return <p className="text-blue-500 text-center text-xl">Loading...</p>;
   }
 
   if (error) {
-    return <p>Error: {error}</p>;
+    return (
+      <p className="text-red-500 text-center text-xl font-bold">
+        Error: {error}
+      </p>
+    );
   }
 
   return (
-    <div className="user-list">
-      <h1>User List</h1>
-      <ul>
+    <div className="user-list max-w-4xl mx-auto p-6 bg-gray-100 rounded-lg shadow-lg">
+      <h1 className="text-3xl font-bold text-center text-gray-800 mb-6">
+        User List
+      </h1>
+      <ul className="space-y-4">
         {users.map((user) => (
-          <li key={user.id} className="user-item">
-            <p>
+          <li
+            key={user.id}
+            className="user-item bg-white p-4 rounded-lg shadow-md"
+          >
+            <p className="text-lg font-semibold text-gray-700">
               <strong>Name:</strong> {user.name}
             </p>
-            <p>
+            <p className="text-gray-600">
               <strong>Email:</strong> {user.email}
             </p>
           </li>
