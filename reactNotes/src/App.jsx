@@ -1,4 +1,5 @@
 import ContextApiIntro from "./componenets/Context API/ContextApiIntro";
+import Crud from "./componenets/CRUD/Crud";
 import DataflowIntro from "./componenets/Data_Flow/DataflowIntro";
 import EventIntro from "./componenets/Events/EventIntro";
 import HocIntro from "./componenets/HOC/HocIntro";
@@ -21,7 +22,7 @@ function App() {
 
       {/* <EventIntro /> */}
 
-      <UseEffectIntro />
+      {/* <UseEffectIntro /> */}
 
       {/* <ContextApiIntro /> */}
 
@@ -36,6 +37,8 @@ function App() {
       {/* <UseRefIntro /> */}
 
       {/* <HocIntro /> */}
+
+      <Crud />
     </div>
   );
 }
