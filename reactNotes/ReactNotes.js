@@ -113,7 +113,7 @@
 // -	We will store and export the object that is returned by createContext() method
 // export let context = createContext()
 
-// -	We will provide the data as a value to the props.children using contextObject.Prvider
+// -	We will provide the data as a value to the props.children using contextObject.Provider
 
 // <context.Provider value={data}>{props.children} </context.Provider>
 
@@ -124,9 +124,9 @@
 
 //! useReducer Hook :
 
-// It is the alternative for useState() hook for managinf the state.
+// It is the alternative for useState() hook for managing the state.
 // It can help to manage complex states & logics better than useState() hook.
-// useReducer() hook with Context-Api is the most commonlt used pattern in React Applcations.
+// useReducer() hook with Context-Api is the most commonly used pattern in React Applcations.
 
 // Syntax : const [state, dispatch] = useReducer(reducer, initialState);
 
